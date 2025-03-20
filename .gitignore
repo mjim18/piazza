@@ -1,0 +1,3 @@
+.env
+DB_CONNECTOR=mongodb+srv://mjim:1234@cluster0.ebb24.mongodb.net/Piazza?retryWrites=true&w=majority&appName=Cluster0
+TOKEN_SECRET=aaabbbccc123
