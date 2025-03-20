@@ -1,4 +1,7 @@
 # piazza
+
+The POST /register allows the user to create an account by inputting their name, email, and password, which is then encrypted. The POST /login allows the user to login using email and password and the auth-token is returned. POST /posts requires the auth-token to be in the header and allows the user to make a post by inputing a title, description, and number of likes. GET /posts is available without the auth-token and allows the user to see all the posts. GET /posts/:id allows the user to extract a single post using the ID and it is also accessable without an account. PUT /posts/:id allows the post creator to update the post using the post ID. DELETE /posts/:id allows the post creator to only have authenitcation to delete the post. 
+
 ![Screenshot 2025-03-20 174631](https://github.com/user-attachments/assets/e9810988-9db1-4417-b071-101233b29de2)
 ![Screenshot 2025-03-20 174833](https://github.com/user-attachments/assets/3dd8896a-86b5-43d8-a928-8f2c769e5c6a)
 ![Screenshot 2025-03-20 174922](https://github.com/user-attachments/assets/6e977ff4-0337-46a3-9be8-163bf01c922a)
